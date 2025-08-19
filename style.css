@@ -1,0 +1,99 @@
+/* variable declare */
+
+/* syntax */
+
+/* :root{
+
+     --variable-name:value; 
+
+} */
+
+:root {
+    --primary-color: #6366f1;
+    --secondary-color: #8b5cf6;
+    --accent-color: #06b6d4;
+    --dark-bg: #0f172a;
+    --card-bg: #1e293b;
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --gradient-1: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    --gradient-2: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+}
+
+body {
+    height: 100vh;
+    background-color: var(--dark-bg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dark-bg {
+    background-color: var(--dark-bg);
+
+}
+
+.nav-item>a {
+    color: var(--text-secondary);
+    transition: transform 0.5s ease-in-out;
+}
+
+.gradient {
+    color: var(--secondary-color);
+}
+
+.nav-item>a:hover {
+    color: var(--text-primary);
+    transform: translateY(-6px);
+}
+
+.main-head {
+    background: var(--gradient-1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero{
+    color: var(--text-secondary);
+}
+.btn-work{
+    background-color: var(--secondary-color);
+}
+
+.btn-work:hover{
+    color: var(--text-primary);
+    background-color: var(--secondary-color);
+    box-shadow: 5px 4px 25px white;
+}
+.btn-work1{
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
+}
+.btn-work1:hover{
+     color: white;
+    background-color: var(--secondary-color); 
+}
+
+.text-clr{
+    color: var(--text-primary);
+        background-color: var(--card-bg);
+
+}
+.icon{
+    color: var(--secondary-color);
+    
+}
+.purple-bar{
+    background-color: var(--secondary-color);
+}
+.bar{
+  background-color: var(--card-bg);
+}
+.technical-skill{
+       background-color: var(--card-bg);
+       width: 23%;
+           transition: transform .5s ease; 
+}
+.technical-skill:hover{
+transform: translateY(-6px);
+    box-shadow: 3px 5px 50px var(--card-bg);
+
+
+}
