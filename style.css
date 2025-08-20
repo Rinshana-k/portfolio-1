@@ -97,3 +97,44 @@ transform: translateY(-6px);
 
 
 }
+
+.txt-pill{
+    color: var(--primary-color);
+    background-color:#282972 ;
+}
+.gradient1{
+    background: var(--gradient-2);
+}
+.live1{
+    color: var(--primary-color);
+    transition: transform .6s ease-in-out;
+    
+}
+.live1:hover{
+    transform: translateX(6px);
+}
+.live2{
+    color: var(--primary-color);
+    transition: transform .6s ease-in-out;
+    
+}
+.live2:hover{
+    transform: translateX(6px);
+}
+.icons{
+    background-color: var(--secondary-color);
+   
+}
+.card{
+    background-color: var(--card-bg);
+    color: white;
+}
+.txt{
+     transition: transform .6s ease-in-out;
+    color: var(--text-secondary);
+}
+
+.txt:hover{
+     transform:translateY(-6px);
+}
+.
