@@ -7,6 +7,7 @@
      --variable-name:value; 
 
 } */
+ 
 
 :root {
     --primary-color: #6366f1;
@@ -95,9 +96,14 @@ body {
 transform: translateY(-6px);
     box-shadow: 3px 5px 50px var(--card-bg);
 
-
 }
 
+meter::-webkit-meter-bar {
+  background:var(--card-bg); /* background of the meter */
+}
+meter::-webkit-meter-optimum-value {
+  background:var(--secondary-color);
+}
 .txt-pill{
     color: var(--primary-color);
     background-color:#282972 ;
@@ -112,6 +118,7 @@ transform: translateY(-6px);
 }
 .live1:hover{
     transform: translateX(6px);
+    color: var(--secondary-color);
 }
 .live2{
     color: var(--primary-color);
@@ -120,6 +127,7 @@ transform: translateY(-6px);
 }
 .live2:hover{
     transform: translateX(6px);
+    color: var(--secondary-color);
 }
 .icons{
     background-color: var(--secondary-color);
@@ -137,4 +145,3 @@ transform: translateY(-6px);
 .txt:hover{
      transform:translateY(-6px);
 }
-.
